@@ -34,7 +34,7 @@ type Option struct {
 const (
 	defaultKeepAliveTimeout   = 1 * time.Minute
 	defaultReadTimeout        = 3 * time.Minute
-	defaultAddr               = ":8888"
+	defaultAddr               = ":8899"
 	defaultNetwork            = "tcp"
 	defaultBasePath           = "/"
 	defaultMaxRequestBodySize = 4 * 1024 * 1024
