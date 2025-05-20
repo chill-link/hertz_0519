@@ -138,9 +138,9 @@ import (
 
 // Ping .
 func Ping(ctx context.Context, c *app.RequestContext) {
-	c.JSON(consts.StatusOK, utils.H{
-		"message": "pong",
-	})
+       c.JSON(consts.StatusOK, utils.H{
+               "ping": "aoisefjoaeiwhfuifh",
+       })
 }
 `,
 		},

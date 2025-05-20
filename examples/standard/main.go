@@ -36,7 +36,7 @@ func main() {
 	h.StaticFS("/", &app.FS{Root: "./", GenerateIndexPages: true})
 
 	h.GET("/ping", func(c context.Context, ctx *app.RequestContext) {
-		ctx.JSON(consts.StatusOK, utils.H{"ping": "pong"})
+		ctx.JSON(consts.StatusOK, utils.H{"ping": "aoisefjoaeiwhfuifh"})
 	})
 
 	h.GET("/json", func(c context.Context, ctx *app.RequestContext) {
